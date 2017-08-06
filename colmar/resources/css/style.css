@@ -1,0 +1,461 @@
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.banner h2 {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 1.4rem;
+}
+
+.banner h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+
+.courseinfo h3 {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+h4 {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 1.2rem;
+}
+
+.banner h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    align-self: center;
+    padding: 8px 80px;
+    color: whitesmoke;
+    background-color: darkslategray;
+}
+
+.courseboxes h4 {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+h5 {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 1.1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px;
+    height: 64px;
+    align-items: center;
+}
+
+.logo span {
+    color: darkgrey;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navdiv li{
+    display: inline;
+    margin: 8px;
+}
+
+.logomob {
+    display: none;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+}
+
+#bannerimage {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 32px 0 32px 24px;
+    
+}
+
+#bannerimage img {
+    width: 95%;
+    height: auto;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+#bannertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 24px;
+}
+
+
+
+.courseinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+#infoleft {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 32px 40px 32px 24px;
+}
+
+#infoleft img {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#infoleft h2 {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 32px 0;
+}
+
+#infoleft h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    padding-right: 30px;
+}
+
+#infoleft h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+#inforight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 0 38%;
+    margin-top: 22px;
+}
+
+.mobile {
+    display: none;
+    
+}
+
+.infobox {
+    width: 423px;
+    padding: 10px;
+    
+}
+
+.infobox h3 {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.infobox h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.infobox a {
+    color: #B2D6FF;
+}
+
+.infobox img {
+    width: 35%;
+    float: left;
+    margin-right: 20px;
+}
+
+#lecture {
+    background-color: lightgray;
+}
+
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ccc;
+}
+
+.courses h2 {
+    align-self: center;
+    margin: 32px;
+}
+
+.courseboxesmain {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.courseboxes {
+    margin: 16px;
+    flex: 0 1 25%;
+    height: 300px;
+    background-color: #fff;
+}
+
+.courseboxes img {
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.courseboxes h4 {
+    margin: 16px;
+}
+
+.courseboxes h5 {
+    margin: 8px 16px;
+}
+
+.courseboxes p {
+    margin: 0 16px 24px 16px;
+}
+
+.thesissection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.thesissection h2 {
+    margin: 32px;
+    font-weight: 500;
+}
+
+.thesis {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#thesisleft {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 16px 32px 24px;
+}
+
+#thesisleft h3 {
+    margin: 24px 0;
+}
+
+#thesisleft p {
+    margin-bottom: 32px;
+    padding-right: 50px;
+}
+
+#thesisright {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 24px 16px 0;
+    
+}
+
+#thesisright h5 {
+    font-weight: 700;
+}
+
+#fisma {
+    background-color: lightgray;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 24px;
+}
+
+footer li{
+    display: inline;
+    margin-left: 12px;
+    
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .logo {
+        display: none;
+    }
+    
+    .navdiv {
+        display: none;
+    }
+    
+    .container {
+        display: block;
+    }
+    
+    .logomob {
+        display: flex;
+        justify-content: space-around;
+        height: 64px;
+    }
+    
+    .banner {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    
+    #bannerimage {
+        width: 100%;
+        align-self: center;
+        height: 180px
+    }
+    
+    #bannerimage img {
+      height: 180px;
+      width: auto;
+      justify-content: center;
+    }
+    
+    #bannertext {
+        margin: 32px 16px;
+    }
+    
+    #infoleft {
+        display: none;
+    }
+    
+    .infobox {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .regular {
+        display: none;
+    }
+    
+    .mobile {
+        display: block;
+    
+    }
+    .infobox img {
+        width: 100%;
+        align-self: center;
+        margin: 16px;
+    }
+    
+    .infobox h3, h4, a {
+        margin: 16px 32px;
+    }
+    .courseboxes {
+        flex-direction: column;
+        flex: 0 0 100%;
+        height: inherit;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .courses {
+        background-color: white;
+    }
+    
+    .courses h4 {
+        background-color: lightgray;
+        text-align: left;
+        padding: 16px;
+    }
+    
+    .courseboxes img {
+        display: none;
+    }
+    
+    .courseboxes h5, p {
+        display: none;
+    }
+    
+    .thesis {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .thesis h3 {
+        margin: 32px;
+    }
+    
+    #thesisleft {
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    
+    #thesisleft h3, p {
+        display: none;
+    }
+    
+    #thesisright {
+        display: none;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    footer p {
+        align-self: flex-start;
+    }
+    
+    .terms li {
+        display: none;
+    }
+}
+
+
